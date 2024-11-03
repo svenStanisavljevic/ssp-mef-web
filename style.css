@@ -7,19 +7,19 @@
 body {
     font-family: 'Lora', serif;
     color: #ffffff;
-    background-color: #ffffff; 
+    background: linear-gradient(to right, #b3e0f0, #ffffff 20%, #ffffff 80%, #b3e0f0);
     line-height: 1.6;
 }
 
 header {
     background-color: #ffffff; 
-    padding: 20px 0;
+    padding: 5px 0;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
     text-align: center;
 }
 
 .logo img {
-    max-height: 40px; 
+    max-height: 80px; 
     height: auto; 
     display: inline-block;
     vertical-align: middle; 
@@ -35,11 +35,11 @@ header {
 }
 
 .navbar a {
-    color: #0077b6; 
+    color: #00417e; 
     text-decoration: none;
     font-weight: bold;
-    font-size: 1rem;
-    padding: 5px 15px;
+    font-size: 1.4rem;
+    padding: 25px 15px;
     transition: color 0.3s ease;
 }
 
@@ -56,14 +56,13 @@ main {
 section {
     margin-bottom: 50px;
     padding: 20px;
-    background-color: #ffffff; 
 }
 
 section h2 {
-    font-size: 1.8rem;
-    color: #0077b6;
+    font-size: 1.6rem;
+    color: #00417e;
     margin-bottom: 15px;
-    text-align: center;
+    text-align: left;
 }
 
 section p {
