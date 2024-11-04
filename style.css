@@ -108,34 +108,35 @@ section p {
 }
 
 .icon {
-    font-size: 70px; 
+    font-size: 80px; 
     transition: transform 0.3s ease; 
     color: #00417e; 
 }
 
 .icon:hover {
-    transform: scale(1.1); /* Povećava ikonu na hover */
+    transform: scale(1.1);
 }
 
-.tooltips {
-    font-size: 1rem; /* Veličina fonta za naziv kontakta */
-    color: #00417e; /* Boja teksta */
-    text-align: center; /* Centriranje teksta */
-    display: block; /* Osigurava da svaki naziv bude na novom redu */
-    margin-top: 5px; /* Razmak iznad naziva kontakta */
-    visibility: hidden; /* Sakriveno po defaultu */
-    opacity: 0; /* Nevidljivo po defaultu */
-    transition: visibility 0s, opacity 0.3s ease; /* Glatka tranzicija */
+.contact-tooltips {
+    font-size: 1rem; 
+    color: #00417e; 
+    text-align: center;
+    display: block; 
+    margin-top: 5px; 
+    visibility: hidden; 
+    opacity: 0; 
+    transition: visibility 0s, opacity 0.3s ease; 
 }
 
 .contact-icons a {
-    text-decoration: none; /* Uklanja podcrtavanje s linkova */
-    color: #00417e; /* Postavlja boju teksta */
+    font-family: 'Lora', serif;
+    text-decoration: none; 
+    color: #00417e; 
 }
 
-.contact-icons a:hover .tooltips {
-    visibility: visible; /* Prikazivanje naziva */
-    opacity: 1; /* Potpuno vidljivo */
+.contact-icons a:hover .contact-tooltips {
+    visibility: visible; 
+    opacity: 1; 
 }
 
 footer {
