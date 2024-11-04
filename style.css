@@ -1,3 +1,31 @@
+.about-content {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.about-content img {
+    margin-left: 20px;
+    border-radius: 8px;
+    display: block;
+    max-width: 250px; 
+    margin: 0 auto 20px;
+}
+
+.news-content {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+
+.news-content img {
+    margin-right: 20px;
+    border-radius: 8px;
+    display: block;
+    max-width: 250px; 
+    margin: 0 auto 20px;
+}
 * {
     margin: 0;
     padding: 0;
@@ -59,25 +87,34 @@ section {
 }
 
 section h2 {
-    font-size: 1.6rem;
+    font-size: 2.4rem;
     color: #00417e;
-    margin-bottom: 15px;
-    text-align: left;
+    margin-bottom: 50px;
+    text-align: center;
 }
 
 section p {
-    font-size: 1rem;
-    color: #555;
+    font-size: 1.1rem;
+    color: #1a1a1a;
     text-align: justify;
 }
 
-section img {
-    display: block;
-    max-width: 150px; 
-    margin: 0 auto 20px;
-    border-radius: 50%;
+.contact-icons {
+    display: flex;
+    justify-content: space-around; 
+    align-items: center; 
+    padding: 20px;
 }
 
+.icon {
+    font-size: 80px; 
+    transition: transform 0.3s ease; 
+    color: #00417e; 
+}
+
+.icon:hover {
+    transform: scale(1.1); /* Povećava ikonu na hover */
+}
 
 footer {
     background-color: #f1f1f1; 
