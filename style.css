@@ -35,7 +35,7 @@
 body {
     font-family: 'Lora', serif;
     color: #ffffff;
-    background: linear-gradient(to right, #b3e0f0, #ffffff 20%, #ffffff 80%, #b3e0f0);
+    background: linear-gradient(to right, #b3e0f0, #ffffff 10%, #ffffff 90%, #b3e0f0);
     line-height: 1.6;
 }
 
@@ -87,7 +87,8 @@ section {
 }
 
 section h2 {
-    font-size: 2.4rem;
+    font-size: 3.6rem;
+    font-weight: normal;
     color: #00417e;
     margin-bottom: 50px;
     text-align: center;
@@ -107,13 +108,34 @@ section p {
 }
 
 .icon {
-    font-size: 80px; 
+    font-size: 70px; 
     transition: transform 0.3s ease; 
     color: #00417e; 
 }
 
 .icon:hover {
     transform: scale(1.1); /* Povećava ikonu na hover */
+}
+
+.tooltips {
+    font-size: 1rem; /* Veličina fonta za naziv kontakta */
+    color: #00417e; /* Boja teksta */
+    text-align: center; /* Centriranje teksta */
+    display: block; /* Osigurava da svaki naziv bude na novom redu */
+    margin-top: 5px; /* Razmak iznad naziva kontakta */
+    visibility: hidden; /* Sakriveno po defaultu */
+    opacity: 0; /* Nevidljivo po defaultu */
+    transition: visibility 0s, opacity 0.3s ease; /* Glatka tranzicija */
+}
+
+.contact-icons a {
+    text-decoration: none; /* Uklanja podcrtavanje s linkova */
+    color: #00417e; /* Postavlja boju teksta */
+}
+
+.contact-icons a:hover .tooltips {
+    visibility: visible; /* Prikazivanje naziva */
+    opacity: 1; /* Potpuno vidljivo */
 }
 
 footer {
