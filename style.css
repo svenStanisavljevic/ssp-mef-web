@@ -133,17 +133,26 @@ footer p {
     .navbar {
         flex-direction: column;
         gap: 10px;
+        padding: 10px;
+    }
+
+    h2 {
+        font-size: 1.4rem;
+        margin-bottom: 10px;
+    }
+
+    p {
+        font-size: 1rem;
+        margin-top: 10px;
     }
 
     main {
-        padding: 0 10px;
+        max-width: 100%;
+        padding: 10px;
     }
-    
-    section h2 {
-        font-size: 1.5rem;
-    }
-    
-    section p {
-        font-size: 0.9rem;
+
+    img {
+        max-width: 50%;
+        height: auto;
     }
 }
