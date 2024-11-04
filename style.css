@@ -136,6 +136,22 @@ footer p {
         padding: 10px;
     }
 
+    .about-content img {
+        margin-left: 5px;
+        border-radius: 8px;
+        display: block;
+        max-width: 100px; 
+        margin: 0 auto 20px;
+    }
+
+    .news-content img {
+        margin-left: 5px;
+        border-radius: 8px;
+        display: block;
+        max-width: 100px; 
+        margin: 0 auto 20px;
+    }
+
     h2 {
         font-size: 1.4rem;
         margin-bottom: 10px;
@@ -151,8 +167,4 @@ footer p {
         padding: 10px;
     }
 
-    img {
-        max-width: 50%;
-        height: auto;
-    }
 }
