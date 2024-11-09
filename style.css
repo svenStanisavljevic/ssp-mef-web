@@ -41,6 +41,14 @@ section h2 {
     color: #00417e;
     margin-bottom: 50px;
     text-align: center;
+    opacity: 0;
+    transform: translateY(50px);  
+    transition: opacity 1s ease, transform 1s ease;  
+}
+
+section h2.visible {
+    opacity: 1;
+    transform: translateY(0);
 }
 
 section h3 {
