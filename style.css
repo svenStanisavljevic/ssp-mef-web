@@ -42,8 +42,6 @@ section h2 {
     margin-bottom: 50px;
     text-align: center;
     opacity: 0;
-    transform: translateY(50px);  
-    transition: opacity 1s ease, transform 1s ease;  
 }
 
 section h2.visible {
