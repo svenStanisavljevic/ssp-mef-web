@@ -44,11 +44,6 @@ section h2 {
     opacity: 0;
 }
 
-section h2.visible {
-    opacity: 1;
-    transform: translateY(0);
-}
-
 section h3 {
     font-size: 1.5rem;
     font-weight: normal;
