@@ -18,3 +18,12 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     } 
 });
+
+function getGreeting() {
+    return "Dobrodošli na moju stranicu!";
+}
+
+function displayGreeting() {
+    const greetingMessage = getGreeting(); // Pozivamo funkciju koja vraća tekst
+    document.getElementById('greeting').textContent = greetingMessage; // Prikazujemo vrijednost u elementu
+}
