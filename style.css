@@ -182,7 +182,7 @@ footer p {
 @media (max-width: 768px) {
 
     h2 {
-        font-size: 5.0rem;
+        font-size: 0.1rem;
         margin-bottom: 10px;
     }
 
@@ -192,7 +192,7 @@ footer p {
     }
 
     p {
-        font-size: 0.8rem;
+        font-size: 10rem;
         margin-top: 5px;
     }
 
