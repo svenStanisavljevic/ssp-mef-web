@@ -181,27 +181,6 @@ footer p {
 
 
 @media (max-width: 768px) {
-    .navbar {
-        flex-direction: column;
-        gap: 15px;
-        padding: 10px;
-    }
-
-    .about-content, .news-content, .projects-content, .contact-icons {
-        flex-direction: column;
-        gap: 15px;
-        align-items: center;
-    }
-
-    .news-item {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .news-item img, .about-content img, .news-content img {
-        max-width: 100%; 
-        margin: 0 auto;
-    }
 
     h2 {
         font-size: 1.6rem;
@@ -221,6 +200,32 @@ footer p {
     main {
         max-width: 100%;
         padding: 10px 20px;
+    }
+
+    .navbar {
+        flex-direction: column;
+        gap: 15px;
+        padding: 10px;
+    }
+
+    .about-content, .news-content, .projects-content, .contact-icons {
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+    }
+
+    .news-item {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .news-item img, .about-content img, .news-content img, .projects-content img {
+        max-width: 100%; 
+        margin: 0 auto;
+    }
+
+    .contact-tooltips {
+        visibility: visible;
     }
 
 }
