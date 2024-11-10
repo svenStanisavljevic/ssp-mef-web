@@ -226,6 +226,7 @@ footer p {
 
     .contact-tooltips {
         visibility: visible;
+        opacity: 1;
     }
 
 }
