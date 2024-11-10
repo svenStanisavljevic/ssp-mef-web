@@ -182,17 +182,17 @@ footer p {
 @media (max-width: 768px) {
 
     section h2 {
-        font-size: 1.6rem;
+        font-size: 2.4rem;
         margin-bottom: 10px;
     }
 
     section h3 {
-        font-size: 1rem;
+        font-size: 1.6rem;
         margin-bottom: 10px;
     }
 
     section p {
-        font-size: 0.8rem;
+        font-size: 1rem;
         margin-top: 5px;
     }
 
