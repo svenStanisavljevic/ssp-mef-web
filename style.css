@@ -187,7 +187,7 @@ footer p {
         padding: 10px;
     }
 
-    .about-content, .news-content, .contact-icons {
+    .about-content, .news-content, .projects-content, .contact-icons {
         flex-direction: column;
         gap: 15px;
         align-items: center;
