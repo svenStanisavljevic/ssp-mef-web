@@ -51,6 +51,11 @@ section h3 {
     margin-bottom: 20px;
 }
 
+section h3 a {
+    text-decoration: none;
+    color: inherit;  
+}
+
 .logo img {
     max-height: 80px; 
     height: auto; 
