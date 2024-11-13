@@ -1,32 +1,13 @@
-document.addEventListener('DOMContentLoaded', function() {
+let lastScrollY = window.scrollY;
+
+window.addEventListener('scroll', () => {
+    const navbar = document.querySelector('.navbar');
     
-    const headings = document.querySelectorAll('h2');
-
-    const observerOptions = {
-        threshold: 0.5,
-        rootMargin: "-100px",
-    };
-
-    const observer = new IntersectionObserver(revealOnScroll, observerOptions);
-
-    function revealOnScroll(entries) {
-        const [entry] = entries
-        if (entry.isIntersecting) {
-            entry.target.classList.remove("hidden");
-            entry.target.style.opacity = '1';
-        } else {
-            entry.target.classList.add("hidden");
-            entry.target.style.opacity = '0';
-
-        }
-    } 
+    if (window.scrollY < lastScrollY) {
+        navbar.classList.remove('hidden');
+    } else {
+        navbar.classList.add('hidden');
+    }
+    
+    lastScrollY = window.scrollY;
 });
-
-// function getGreeting() {
-//     return "Dobrodošli na moju stranicu!";
-// }
-
-// function displayGreeting() {
-//     const greetingMessage = getGreeting(); // Pozivamo funkciju koja vraća tekst
-//     document.getElementById('greeting').textContent = greetingMessage; // Prikazujemo vrijednost u elementu
-// }
