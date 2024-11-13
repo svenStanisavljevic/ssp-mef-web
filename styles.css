@@ -219,6 +219,10 @@ footer p {
         padding: 10px;
     }
 
+    .navbar.hidden {
+        top: -500px;
+    }
+
     .about-content, .news-content, .projects-content, .contact-icons {
         flex-direction: column;
         gap: 15px;
