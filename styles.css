@@ -1,3 +1,7 @@
+/*
+    CSS project commons
+*/
+
 * {
     margin: 0;
     padding: 0;
@@ -32,8 +36,15 @@ section {
 
 section p {
     font-size: 1.1rem;
-    color: #1a1a1a;
+    color: #0d0d0d;
     text-align: justify;
+}
+
+section h1 {
+    font-size: 4.2rem;
+    font-weight: bold;
+    color: #00417e;
+    text-align: center;
 }
 
 section h2 {
@@ -54,6 +65,18 @@ section h3 {
 section h3 a {
     text-decoration: none;
     color: inherit;  
+}
+
+footer {
+    background-color: #f1f1f1; 
+    padding: 20px;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #666;
+}
+
+footer p {
+    margin: 0;
 }
 
 .logo img {
@@ -90,11 +113,55 @@ section h3 a {
     font-size: 1.4rem;
     padding: 25px 15px;
     transition: color 0.3s ease;
+    position: relative;
 }
 
 .navbar a:hover {
     color: #005f7f; 
 }
+
+.navbar li {
+    position: relative;
+}
+
+.navbar .dropdown {
+    list-style-type: none;
+    position: absolute;
+    top: 100%; 
+    left: 0;
+    background-color: #ffffff;
+    padding: 10px 0;
+    display: none; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 2000;
+}
+
+.navbar .dropdown li {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar .dropdown a {
+    padding: 10px 20px;
+    display: block;
+    white-space: nowrap; 
+    font-size: 1.2rem;
+    color: #00417e;
+    text-decoration: none;
+}
+
+.navbar .dropdown a:hover {
+    background-color: #f5f5f5;
+    color: #005f7f;
+}
+
+.navbar li:hover .dropdown {
+    display: block;
+}
+
+/*
+    index.html styles
+*/
 
 .about-content {
     display: flex;
@@ -127,6 +194,13 @@ section h3 a {
 .news-item-text {
     display: flex;
     flex-direction: column;
+}
+
+.news-item h5 {
+    position: relative;
+    font-size: 1.2rem;
+    color: #ddd;
+    margin: 0;
 }
 
 .projects-content {
@@ -183,18 +257,78 @@ section h3 a {
     opacity: 1; 
 }
 
-footer {
-    background-color: #f1f1f1; 
-    padding: 20px;
+/*
+    u-vase-zivote-kap-nase-dobrote.html styles
+*/
+
+.project-signup-content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.project-signup-content a {
+    align-items: center;
+    font-size: 2rem;
     text-align: center;
-    font-size: 0.9rem;
-    color: #666;
+    font-weight: bold;
+    color: #fc6a03; 
 }
 
-footer p {
-    margin: 0;
+.project-gifting-content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
 }
 
+.project-gifting-image {
+    max-width: 50%;
+    align-items: center;
+    height: auto; 
+    object-fit: cover; 
+    border-radius: 8px; 
+}
+
+.project-about-content {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.project-about-images {
+    display: flex;
+    justify-content: space-between; 
+    gap: 20px; 
+}
+
+.project-about-images-image {
+    flex: 1 1 calc(33% - 20px);
+    max-width: 30%; 
+    height: auto; 
+    object-fit: cover; 
+    border-radius: 8px; 
+}
+
+.project-colaboration-content {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.project-colaboration-image {
+    max-width: 20%;
+    align-items: center;
+    height: auto; 
+    object-fit: cover; 
+    border-radius: 8px; 
+}
+
+
+/*
+    mobile styles
+*/
 
 @media (max-width: 768px) {
 
