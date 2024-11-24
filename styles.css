@@ -42,7 +42,7 @@ section p {
 
 section h1 {
     font-size: 4.2rem;
-    font-weight: bold;
+    font-weight: normal;
     color: #00417e;
     text-align: center;
 }
@@ -189,7 +189,7 @@ footer p {
     margin-right: 20px;
     border-radius: 8px;
     max-width: 250px; 
-    margin: 0 auto 20px;
+    margin: 0;
 }
 
 .news-item-text {
@@ -384,5 +384,7 @@ footer p {
         visibility: visible;
         opacity: 1;
     }
+
+
 
 }
