@@ -389,7 +389,7 @@ footer p {
         opacity: 1;
     }
 
-    .project-gifting img, .project-about img, .project-colaboration img {
+    .project-gifting-content img, .project-about-content img, .project-colaboration-content img {
         max-width: 100%;
         margin: 0 auto;
     }
