@@ -399,4 +399,13 @@ footer p {
         text-align: center;
     }
 
+    .project-colaboration {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .project-about-images {
+        flex-direction: column;
+    }
+
 }
