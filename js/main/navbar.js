@@ -22,6 +22,10 @@ export function showNavbarOnScroll() {
         } else {
             navbar.classList.add('hidden');
         }
+
+        if (window.scrollY === 0) {
+            navbar.classList.remove('hidden');
+        }
         
         lastScrollY = window.scrollY;
     });
