@@ -333,6 +333,10 @@ footer p {
 
 @media (max-width: 768px) {
 
+    section h1 {
+        font-size: 2.8 rem;
+    }
+
     section h2 {
         font-size: 2.4rem;
         margin-bottom: 20px;
@@ -385,6 +389,14 @@ footer p {
         opacity: 1;
     }
 
+    .project-gifting img, .project-about img, .roject-colaboration img {
+        max-width: 100%;
+        margin: 0 auto;
+    }
 
+    .project-about {
+        flex-direction: column;
+        text-align: center;
+    }
 
 }
