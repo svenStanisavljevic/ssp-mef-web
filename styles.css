@@ -332,21 +332,6 @@ th {
     border-radius: 8px; 
 }
 
-.project-colaboration-content {
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    gap: 30px;
-}
-
-.project-colaboration-image {
-    max-width: 20%;
-    align-items: center;
-    height: auto; 
-    object-fit: cover; 
-    border-radius: 8px; 
-}
-
 
 /*
     mobile styles
