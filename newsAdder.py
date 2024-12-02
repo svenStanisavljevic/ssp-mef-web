@@ -114,7 +114,7 @@ link_entry.pack(pady=5)
 
 # Text input
 tk.Label(window, text="Text:").pack(pady=5)
-text_entry = tk.Text(window, width=40, height=10)
+text_entry = tk.Text(window, width=200, height=50)
 text_entry.pack(pady=5)
 
 # File Selector
