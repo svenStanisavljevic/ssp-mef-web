@@ -332,6 +332,25 @@ th {
     border-radius: 8px; 
 }
 
+/*
+    gallery styles
+*/
+
+.gallery { 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.gallery-image {
+    width: calc(33.33% - 10px);
+    height: auto;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    object-fit: cover;
+}
+
 
 /*
     mobile styles
@@ -412,6 +431,10 @@ th {
 
     .project-about-images {
         flex-direction: column;
+    }
+
+    .gallery-image {
+        width: calc(100% - 10px);
     }
 
 }
