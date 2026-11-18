@@ -1,15 +1,12 @@
-import { loadNavbar } from './navbar.js'
-import { showNavbarOnScroll } from './navbar.js';
+import { loadNavbar, showNavbarOnScroll } from './navbar.js';
 import { loadGallery } from './gallery.js';
 
 
-showNavbarOnScroll();
 document.addEventListener('DOMContentLoaded', () => {
     loadNavbar();
+    showNavbarOnScroll();
     const mainElement = document.querySelector('.gallery');
     if (mainElement) {
         loadGallery(mainElement);
-    } else {
-        console.error("Main element not found!");
     }
 });

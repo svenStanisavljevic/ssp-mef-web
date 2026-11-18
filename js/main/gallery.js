@@ -62,10 +62,12 @@ export function loadGallery(mainElement) {
     "images/galerija/gallery-image-60.jpeg",
 ];
 
-    imageList.forEach(imagePath => {
+    imageList.forEach((imagePath, index) => {
         const imgElement = document.createElement('img');
         imgElement.src = imagePath;
-        imgElement.alt = `Slika iz galerije: ${imagePath}`;
+        imgElement.alt = `Fotografija s aktivnosti sekcije ${index + 1}`;
+        imgElement.loading = 'lazy';
+        imgElement.decoding = 'async';
         imgElement.classList.add('gallery-image');
         mainElement.appendChild(imgElement);
     });

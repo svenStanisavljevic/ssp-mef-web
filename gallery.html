@@ -5,22 +5,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Studentska sekcija za Psihijatriju - Medicinski fakultet Sveučilišta u Zagrebu</title>
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css?v=4">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <script type="module" src="js/main/index.js"></script>
 </head>
 
 <body>
+    <a class="skip-link" href="#main-content">Preskoči na sadržaj</a>
 
     <header>
-        <nav id="navbar"></nav>
+        <nav id="navbar" aria-label="Glavna navigacija"></nav>
     </header>
 
-    <main>
-        <div class="gallery">
-            
-        </div>
+    <main id="main-content">
+        <section class="gallery-section" aria-labelledby="gallery-title">
+            <h2 id="gallery-title">GALERIJA</h2>
+            <div class="gallery"></div>
+        </section>
     </main>
 
     <footer>

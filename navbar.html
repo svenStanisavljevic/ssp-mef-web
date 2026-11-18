@@ -1,15 +1,22 @@
-<ul class="navbar">
-    <li> 
-        <a href="/index.html" class="logo"><img src="images/logo-ssp.png" alt="Slika prikazuje logotip sekcije"></a>
-    </li>
-    <li><a href="/index.html#about">O nama</a></li>
-    <li><a href="/index.html#news">Obavijesti</a></li>
-    <li>
-        <a href="/index.html#projects">Projekti i postignuća</a>
-        <ul class="dropdown">
-            <li><a href="u-vase-zivote-kap-nase-dobrote.html">U vaše živote kap naše dobrote</a></li>
-        </ul>
-    </li>
-    <li><a href="gallery.html">Galerija</a></li>
-    <li><a href="/index.html#contacts">Kontakt</a></li>
-</ul>
+<div class="nav-inner">
+    <a href="index.html" class="logo" aria-label="Studentska sekcija za psihijatriju — početna">
+        <span class="logo-mark"><img src="images/logo-ssp.png" alt="Logotip sekcije" width="2048" height="1447"></span>
+        <span class="logo-name">Studentska sekcija<strong>za psihijatriju</strong></span>
+    </a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-links">
+        Izbornik
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+    </button>
+    <ul class="navbar" id="nav-links">
+        <li><a href="index.html#about">O nama</a></li>
+        <li><a href="index.html#news">Obavijesti</a></li>
+        <li>
+            <a href="index.html#projects">Projekti i postignuća</a>
+            <ul class="dropdown">
+                <li><a href="u-vase-zivote-kap-nase-dobrote.html">U vaše živote kap naše dobrote</a></li>
+            </ul>
+        </li>
+        <li><a href="gallery.html">Galerija</a></li>
+        <li><a href="index.html#contacts">Kontakt</a></li>
+    </ul>
+</div>
